@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+/* ================================ websiteDevelopment ============================ */
+.websiteDevelopment .Banner-module--mainHeading--1JWbm {
+  font-size: 45px;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.websiteDevelopment .Banner-module--subHeading--1z4JK {
+  font-size: 24px;
+  font-family: Poppins, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.webDevCard {
+  background-color: #f7fcff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.webDevCard span {
+  color: var(--secondary);
+}
+
+.webDevCard h2 {
+  font-size: 40px;
+}
+
+.develop span b {
+  color: var(--primary);
+}
+
+.chooseCardShadow {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 3px 13px;
+  border-radius: 10px;
+  border: 0 !important;
+}
+
+.main-heading-36 span {
+  color: var(--primary);
+}
+.back-pic-1{
+  background: #293462;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.colorrr{
+  color: #facc15;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.breadcrumb{
+background-color: none;
 }
